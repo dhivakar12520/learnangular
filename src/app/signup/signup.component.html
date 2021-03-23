@@ -1,0 +1,30 @@
+<h1 nz-typography>signup works!</h1>
+
+
+<form>
+    <div id="FN">
+    <label for="text" >Firstname</label>
+    <input nz-input nzSize=default placeholder="Firstname"  type="text" [(ngModel)]="Firstnamevalue" name="First">
+</div>
+    <div id="LN">
+        <label for="text">Lastname</label>
+        <input nz-input nzSize=default placeholder="LAstname" type="text" [(ngModel)]='Lastnamevalue' name="Last">
+    </div>
+    <div id="PN">
+        <label for="number">phonenumber</label>
+        <input nz-input nzSize=default placeholder="phonenumber"  type="number" [(ngModel)]='number' name="Phone">
+    </div>
+    <div id="E-mail">
+        <label for="text">E-mail</label>
+        <input nz-input nzSize=default placeholder="E-mail"  type="text" [(ngModel)]='email' name="email">
+    </div>
+    <div id="PASSWORD">
+        <label for="text">Password</label>
+        <input nz-input nzSize=default placeholder="Password"  type="text" [(ngModel)]='Password' name="Password">
+    </div>
+    <div id="SIGNUP">
+        <button nz-button nzType="primary" type="submit" (click)=submit()>signup</button>
+    </div>
+</form>
+
+

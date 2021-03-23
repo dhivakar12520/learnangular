@@ -1,0 +1,18 @@
+.LI
+{
+    color: darkgreen;
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Button
+{
+    color: indigo;
+    font-size: 50px;
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
